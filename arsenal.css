@@ -70,6 +70,7 @@ body {
   line-height: 70px;
   margin-bottom: 20px;
 }
+
 .section-1-2 {
   display: flex;
   border-top: solid 3px rgb(240 0 0);
@@ -111,27 +112,23 @@ body {
 }
 .little-section {
   display: flex;
-
-  margin-top: 3%;
   margin-left: 3%;
+  margin-top: 1%;
   width: 1100px;
-  margin-right: 0px;
+  justify-content: space-between;
 }
 .little-section-1 {
   width: 350px;
-  margin-right: 10px;
-  margin-left: 10px;
+
   border-top: solid 3px rgb(240 0 0);
 }
 .little-section-2 {
   width: 350px;
-  margin-right: 10px;
-  margin-left: 10px;
+
   border-top: solid 3px rgb(240 0 0);
 }
 .little-section-3 {
   width: 350px;
-  margin-right: 10px;
-  margin-left: 10px;
+
   border-top: solid 3px rgb(240 0 0);
 }
