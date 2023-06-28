@@ -19,24 +19,24 @@ header {
 .container-top {
   color: white;
   display: flex;
-  gap: 20px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  margin: 0px;
-  margin-left: 450px;
-  font-size: 12px;
+  gap: 1.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+
+  margin-left: 28.125rem;
+  font-size: 0.75rem;
   font-weight: bold;
 }
 
 .container-bottom {
   display: flex;
-  margin-left: 50px;
+  margin-left: 3.125rem;
   justify-content: space-between;
   color: white;
   align-items: center;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 500;
-  padding-top: 15px;
+  padding-top: 0.9375rem;
 }
 #sponsors {
   display: flex;
@@ -44,7 +44,7 @@ header {
   justify-content: end;
   align-items: center;
   gap: 0px;
-  margin-left: 100px;
+  margin-left: 6.25rem;
 }
 
 body {
@@ -57,7 +57,7 @@ body {
 .section-1 {
   margin-left: 3%;
   margin-top: 3%;
-  width: 1100px;
+  width: 68.75rem;
 }
 
 .titles {
@@ -82,12 +82,13 @@ body {
 }
 .card-subtitle {
   color: #72767e;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 .card-title {
   color: #454d59;
   font-size: 150%;
   margin-top: 0px;
+  font-weight: bold;
 }
 
 .card-body {
@@ -99,7 +100,7 @@ body {
 }
 .socialimg {
   text-decoration-line: none;
-  padding-right: 10px;
+  padding-right: 0.625rem;
   float: right;
 }
 .section-side {
@@ -110,25 +111,101 @@ body {
   border-top: solid 3px rgb(240 0 0);
   box-shadow: 2px 2px 3px 1px #e6e6e6;
 }
+.section-fixture {
+  display: flex;
+}
 .little-section {
   display: flex;
   margin-left: 3%;
   margin-top: 1%;
-  width: 1100px;
+  width: 68.75rem;
   justify-content: space-between;
 }
 .little-section-1 {
-  width: 350px;
+  width: 21.875rem;
 
-  border-top: solid 3px rgb(240 0 0);
+  border-top: solid 0.1875rem rgb(240 0 0);
 }
 .little-section-2 {
-  width: 350px;
+  width: 21.875rem;
+
+  border-top: solid 0.1875rem rgb(240 0 0);
+}
+.little-section-3 {
+  width: 21.875rem;
 
   border-top: solid 3px rgb(240 0 0);
 }
-.little-section-3 {
-  width: 350px;
-
+.fixture {
+  background-color: #151d2d;
   border-top: solid 3px rgb(240 0 0);
+  color: white;
+  font-weight: bold;
+  font-size: 90%;
+  margin-left: 3%;
+  margin-top: 0px;
+  text-align: center;
+  padding: 20px;
+}
+.match-info {
+  color: #454d59;
+  text-align: left;
+  padding-left: 2px;
+}
+.matchteams {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+.versus {
+  padding-top: 30px;
+  color: #454d59;
+  font-weight: lighter;
+  font-size: 200%;
+}
+
+.home-team {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 90%;
+  text-align: center;
+}
+.away-team {
+  display: flex;
+  flex-direction: column;
+  font-size: 90%;
+  text-align: right;
+}
+.fixture-footer {
+  margin-top: 35px;
+}
+a {
+  text-align: left;
+  text-decoration-line: none;
+  color: inherit;
+}
+.fixture > hr {
+  height: 1px;
+  border: 0;
+  background-color: #454d59;
+  margin: 20px 0px;
+}
+.profile-section {
+  margin-left: 3%;
+  margin-top: 3%;
+  width: 68.75rem;
+}
+summary {
+  color: rgb(216, 0, 0);
+  margin: 5px 20px;
+
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: x-large;
+}
+.details {
+  display: flex;
+  flex-direction: column;
 }
